@@ -9,7 +9,7 @@ body {
   font-family: var(--default-font-family);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3 {
   font-family:var(--heading-font-family);
   font-weight: bold;
 }
@@ -25,7 +25,7 @@ h2 {
   color: black;
 }
 
-h4 {
+h3 {
   font-size: 40px;
 }
 
@@ -111,7 +111,7 @@ footer .social-links a:hover {
 .hero {
   background-color:var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px; 
 }
 
 .hero p {
@@ -130,7 +130,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -181,19 +181,23 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 42px; 
+    font-size: 40px; 
     line-height: 56px; 
   }
+
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
-  .hero {
-    padding: 80px 20px;
+
+  h3 {
+    font-size: 26px;
   }
+
   .content {
     text-align: center;
     padding: 0;
   }
+  
   .project-description {
     padding: 0;
     text-align: center;
