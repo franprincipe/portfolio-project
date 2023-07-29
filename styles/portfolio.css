@@ -57,7 +57,6 @@ nav a {
   text-decoration: none;
 }
 
-
 nav a:hover,
 nav li.active a {
   color: #b9b0ab;
@@ -197,7 +196,7 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
-  
+
   .project-description {
     padding: 0;
     text-align: center;
